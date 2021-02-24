@@ -1,7 +1,7 @@
 # Kiryl Krasouski
 ## Contacts 
 * Viber +375 29 8339330
-*Telegram 375 25 9669730
+* Telegram 375 25 9669730
 * ziksow@gmail.com
 * https://vk.com/zik_music
 ## Info
