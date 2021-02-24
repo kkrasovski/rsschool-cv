@@ -16,7 +16,7 @@ Please, chek my Repositories
 2019-2020 ITStep courses (Fronted Development)  
 [Go to Test Repository: ](https://github.com/kkrasovski/ItStep)
 ## Education
-1. ITStep courses 
+1. ITStep courses 2020 in Mogilev
 2. [VladilenMinin on YouTube ](https://www.youtube.com/c/VladilenMinin/ "Click")
 3. [WebDev for Begginers on YouTube ](https://www.youtube.com/c/itgid/   "Click")
 
