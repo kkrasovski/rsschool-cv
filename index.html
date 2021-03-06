@@ -1,75 +1,96 @@
 <!doctype html>
 <html lang="en">
-    
+
 <head>
-    <meta charset="utf-8"> 
+    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML, CSS & Git Basics</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="header__photo">
-                <div class="avatar">           
-                </div>
+            <nav class="header__nav navigation">
+                <a href="#info" class="navigation__link">Info</a>
+                <a href="#skills" class="navigation__link">Skills</a>
+                <a href="#experience" class="navigation__link">Experience</a>
+                <a href="#education" class="navigation__link">Education</a>
+                <a href="#language" class="navigation__link">Language</a>
+            </nav>
+
+            <div class="header__photo">           
+                    <img src="img/photo.JPG" class="header__avatar"alt="Kiryl Krasouski">               
             </div>
             <div class="header__info">
                 <h1 class="header__title">Kiryl Krasouski</h1>
-                <span class="header__description">Front-End developer</span>
-                <div class="header__contacts">
-                  <span class="header__contacts-item">Viber +375 29 8339330</span>
-                  <span class="header__contacts-item">ziksow@gmail.com</span>
-                  <span class="header__contacts-item"><a href="https://vk.com/zik_music" class="link link_white">https://vk.com/zik_music</a></span>     
+                <span class="header__description">Front-End developer</span>             
+                    <ul class="header__contacts">
+                        <li><span class="header__contacts-item">Viber +375 29 8339330</span></li>
+                        <li> <span class="header__contacts-item">ziksow@gmail.com</span></li>
+                        <li> <span class="header__contacts-item"><a href="https://vk.com/zik_music"
+                            class="link link_white">https://vk.com/zik_music</a></span></li>
+                    </ul>
                 </div>
-            </div> 
         </header>
         <main class="wrapper__main main">
-            <article class="main__info-block">
-                <h2 class="main__title">Info</h2>
+            <section class="main__info-block">
+                <h2 class="main__title" id="info">Info</h2>
                 <div class="main__content">
-                    I want to become a JavaScript developer. I’m already pretty good at HTML and CSS. I try to improve my JS.
+                    I want to become a JavaScript developer. I’m already pretty good at HTML and CSS. I try to improve
+                    my JS.
                 </div>
-            </article>
-            
-            <article class="main__info-block">
-                <h2 class="main__title">Skills</h2>
-                <div class="main__content">                   
+            </section>
+
+            <section class="main__info-block">
+                <h2 class="main__title" id="skills">Skills</h2>
+                <div class="main__content">
                     <ul>
                         <li>I have skills in JS, HTML, CSS, GIT, REACT, Photoshop</li>
                         <li>Use VSCode, GIT command-line, TortoiseGit, Total Commander ;)</li>
                     </ul>
                 </div>
-            </article>        
-            <article class="main__info-block">
-                <h2 class="main__title">Experience</h2>
+            </section>
+            <section class="main__info-block">
+                <h2 class="main__title" id="skills">Code examples</h2>
                 <div class="main__content">
-                   <p>2015 I studied working with WordPress and OpenCart</p>
-                   <p>2019-2020 ITStep courses (Fronted Development)</p>
-                   <p><a href="https://github.com/kkrasovski/ItStep" class="link link_in-content">My github repositories</a></p>
+                <a href="https://github.com/kkrasovski" class="link link_underlined">You can visit my GitHub for code examples</a>
                 </div>
-            </article>
-            <article class="main__info-block">
-                <h2 class="main__title">Education</h2>
-                <div class="main__content">                 
-                   <ul>
-                       <li>ITStep courses 2020 in Mogilev</li>
-                       <li><a href="https://www.youtube.com/c/VladilenMinin/" class="link link_in-content">VladilenMinin on YouTube</a></li>
-                       <li><a href="https://www.youtube.com/c/itgid/" class="link link_in-content">WebDev for Begginers on YouTube</a></li>
-                   </ul>
-                </div>
-            </article>
-            <article class="main__info-block">
-                <h2 class="main__title">My English</h2>
+            </section>
+            <section class="main__info-block">
+                <h2 class="main__title" id="experience">Experience</h2>
                 <div class="main__content">
-                    English level A2. I had the experience of communicating with Chinese suppliers by WhatsApp and Email.
+                    <p>2015 I studied working with WordPress and OpenCart</p>
+                    <p>2019-2020 ITStep courses (Fronted Development)</p>
+                    <p><a href="https://github.com/kkrasovski/ItStep" class="link link_in-content">My github
+                            repositories</a></p>
                 </div>
-            </article>
+            </section>
+            <section class="main__info-block">
+                <h2 class="main__title" id="education">Education</h2>
+                <div class="main__content">
+                    <ul>
+                        <li>ITStep courses 2020 in Mogilev</li>
+                        <li><a href="https://www.youtube.com/c/VladilenMinin/"
+                                class="link link_in-content">VladilenMinin on YouTube</a></li>
+                        <li><a href="https://www.youtube.com/c/itgid/" class="link link_in-content">WebDev for Begginers
+                                on YouTube</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="main__info-block">
+                <h2 class="main__title" id="language">My English</h2>
+                <div class="main__content">
+                    English level A2. I had the experience of communicating with Chinese suppliers by WhatsApp and
+                    Email.
+                </div>
+            </section>
         </main>
         <footer>
             <div class="copyright">© 2021</div>
         </footer>
     </div>
 </body>
+
 </html>
